@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Absolute Position</title>
+
+    <style>
+        #container {
+            width: 500px; height: 300px;
+            border: 3px solid black;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .circle {
+            position: absolute;
+            width: 100px; height: 100px;
+            border-radius: 10% 20% 50% 20%;
+        }
+
+        #red {
+            background: tomato;
+            left: 50px; top: 50px;
+        }
+
+        #green {
+            background: greenyellow;
+            right: 50px; top: 50px;
+        }
+
+        #blue {
+            background: sienna;
+            right: 50px; bottom: 50px;
+        }
+
+        #yellow {
+            background: aqua;
+            left: 50px; bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dummy Text</h1>
+    <div id="container">
+        <div id="red" class="circle"></div>
+        <div id="green" class="circle"></div>
+        <div id="blue" class="circle"></div>
+        <div id="yellow" class="circle"></div>
+    </div>
+    <h1>Dummy Text</h1>
+</body>
+</html>

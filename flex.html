@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout</title>
+    <style>
+        body {
+            width: 500px;
+            margin: 10px auto;
+        }
+        #middle { display: flex; }
+        #left { width: 25%; background: orange; }
+        #left_mid  { width: 25% ; background: yellow;}
+        #right_mid  { width: 25% ; background: green;}
+        #right { width: 25%; background: blue; }
+
+        #top { background: tomato; }
+        #bottom { background: purple; }
+    </style>
+</head>
+<body>
+    <div id="top">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac urna vitae dolor pulvinar facilisis eget ac risus. Phasellus gravida non augue vitae rutrum. Ut vitae ligula lorem. Suspendisse gravida egestas faucibus.</div>
+    <div id="middle">
+        <div id="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div id="left_mid"> Cras ac urna vitae dolor pulvinar facilisis eget ac risus.</div>
+        <div id="right_mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div id="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+    </div>
+    <div id="bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac urna vitae dolor pulvinar facilisis eget ac risus. Phasellus gravida non augue vitae rutrum. Ut vitae ligula lorem. Suspendisse gravida egestas faucibus.</div>
+</body>
+</html>
